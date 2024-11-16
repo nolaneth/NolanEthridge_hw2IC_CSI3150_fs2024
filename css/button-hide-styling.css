@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center; /*center box*/
+  padding: 20px;
+  border: 2px solid orange;
+  height: auto;
+  width: auto;
+  text-align: center; /*center text*/
+  margin-bottom: 20px;
+}
+
+body {
+  border: 2px solid orange;
+  padding: 20px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.picture-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid orange;
+}
+
+.picture-box img {
+  height: auto;
+  width: 250px;
+}
+
+.picture-box button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  height: auto;
+  width: 200px;
+  background-color: lightblue;
+  color: white;
+}
+
+.picture-box .second-button {
+  margin-top: 40px;
+  bottom: -40px;
+  background-color: lightgreen; /* Different background for the second button */
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border: solid orange;
+}

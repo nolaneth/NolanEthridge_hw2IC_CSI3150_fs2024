@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/button-hide-styling.css" />
+    <script src="js/button-hide.js" defer></script>
+  </head>
+  <header>
+    <div class="container">
+      <p>Welcome to the Interactive ABCs of CSS Technology learning Website</p>
+    </div>
+    <div class="container">
+      <p>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </p>
+    </div>
+  </header>
+
+  <body>
+    <div class="picture">
+      <div class="picture-box">
+        <img
+          id="a-picture"
+          src="assets/img/css-letter-a.png"
+          style="visibility: hidden"
+        />
+        <button
+          id="a-button"
+          style="visibility: hidden"
+          onclick="toggleVisibility('a-picture', 'a-button')"
+        >
+          Hide Result
+        </button>
+        <div
+          class="second-button"
+          onclick="makeVisible('a-picture', 'a-button')"
+        >
+          A
+        </div>
+      </div>
+      <div class="picture-box">
+        <img
+          id="b-picture"
+          src="assets/img/css-letter-b.png"
+          style="visibility: hidden"
+        />
+        <button
+          id="b-button"
+          style="visibility: hidden"
+          onclick="toggleVisibility('b-picture', 'b-button')"
+        >
+          Hide Result
+        </button>
+        <div
+          class="second-button"
+          onclick="makeVisible('b-picture', 'b-button')"
+        >
+          B
+        </div>
+      </div>
+      <div class="picture-box">
+        <img
+          id="c-picture"
+          src="assets/img/css-letter-c.png"
+          style="visibility: hidden"
+        />
+        <button
+          id="c-button"
+          style="visibility: hidden"
+          onclick="toggleVisibility('c-picture', 'c-button')"
+        >
+          Hide Result
+        </button>
+        <div
+          class="second-button"
+          onclick="makeVisible('c-picture', 'c-button')"
+        >
+          C
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
